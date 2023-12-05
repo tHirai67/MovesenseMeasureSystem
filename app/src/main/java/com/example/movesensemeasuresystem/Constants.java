@@ -7,4 +7,6 @@ public class Constants {
     public static final String URI_MEAS_ACC_52 = "/Meas/Acc/416";
     public static final String URI_MEAS_ACC_102 = "/Meas/Acc/833";
     public static final String URI_MEAS_ACC_200 = "/Meas/Acc/1666";
+    public static final String IMU6_PATH = "/Meas/IMU6/833";
+    public static final String IMU9_PATH = "/Meas/IMU9/";
 }
