@@ -33,7 +33,19 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation files('libs/mdslib-1.44.0(1)-release.aar')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // Local Library
+    implementation fileTree(dir: 'libs', include: ['*.aar'])
+
+    // GSON
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // Bluetooth
+    implementation "com.polidea.rxandroidble2:rxandroidble:1.10.2"
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
 }

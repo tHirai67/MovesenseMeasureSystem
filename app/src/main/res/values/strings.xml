@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MovesenseMeasureSystem</string>
+    <string-array name="sensorPosition_array">
+        <item>Right foot</item>
+        <item>Left foot</item>
+        <item>Upper Back</item>
+        <item>Lower Back</item>
+    </string-array>
 </resources>
